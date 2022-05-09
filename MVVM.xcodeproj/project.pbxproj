@@ -17,6 +17,7 @@
 		A3808AEC2829401600EC56C8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3808AEB2829401600EC56C8 /* Order.swift */; };
 		A3808AEF28294A5400EC56C8 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3808AEE28294A5400EC56C8 /* OrdersVC.swift */; };
 		A3808AF12829616500EC56C8 /* OrdersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3808AF02829616500EC56C8 /* OrdersVM.swift */; };
+		A3808AF4282969FB00EC56C8 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3808AF3282969FB00EC56C8 /* Weak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A3808AEB2829401600EC56C8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		A3808AEE28294A5400EC56C8 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
 		A3808AF02829616500EC56C8 /* OrdersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVM.swift; sourceTree = "<group>"; };
+		A3808AF3282969FB00EC56C8 /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A3808ADE2826E88100EC56C8 /* Model */,
 				A3808ADF2826E88800EC56C8 /* View */,
 				A3808AE02826E89600EC56C8 /* ViewModel */,
+				A3808AF2282969D800EC56C8 /* Services */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -109,6 +112,14 @@
 				A328AA6D2825A99900789C8C /* Info.plist */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		A3808AF2282969D800EC56C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3808AF3282969FB00EC56C8 /* Weak.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				A3808AEF28294A5400EC56C8 /* OrdersVC.swift in Sources */,
 				A3808AE828293EB500EC56C8 /* OrderCell.swift in Sources */,
 				A3808AEC2829401600EC56C8 /* Order.swift in Sources */,
+				A3808AF4282969FB00EC56C8 /* Weak.swift in Sources */,
 				A3808AE62826EE3300EC56C8 /* MainViewController.swift in Sources */,
 				A328AA602825A99600789C8C /* AppDelegate.swift in Sources */,
 				A3808AE22826EA2400EC56C8 /* Person.swift in Sources */,
